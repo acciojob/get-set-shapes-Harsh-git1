@@ -1,6 +1,6 @@
 //complete this code
 class Rectangle {
-	constructor(width, hegiht) {
+	constructor(width, height) {
 		this.w = width;
 		this.h = height;
 		
@@ -23,6 +23,7 @@ class Rectangle {
 class Square extends Rectangle {
 
 	constructor(number){
+		super(number, number);
 		this.n = number;
 	}
 	
